@@ -1,0 +1,20 @@
+h3::before{
+    content: 'hello ';
+}
+h3::after{
+    content: ' tor somossha ki, tui bar bar bondho hos ken? jola handaise ni to vitte?';
+}
+li:nth-child(2n+1){
+    background-color: brown;
+}
+li:nth-child(2n){
+    background-color: green;
+}
+li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
